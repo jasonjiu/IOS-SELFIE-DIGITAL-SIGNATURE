@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0D18EB24B57FD200ED487F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D18EA24B57FD100ED487F /* RoundedButton.swift */; };
 		9C216B0424B42BF3008C68A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B0324B42BF3008C68A5 /* AppDelegate.swift */; };
 		9C216B0624B42BF3008C68A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B0524B42BF3008C68A5 /* SceneDelegate.swift */; };
-		9C216B0824B42BF3008C68A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B0724B42BF3008C68A5 /* ViewController.swift */; };
+		9C216B0824B42BF3008C68A5 /* OpenCameraPrivyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B0724B42BF3008C68A5 /* OpenCameraPrivyViewController.swift */; };
 		9C216B0B24B42BF3008C68A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C216B0924B42BF3008C68A5 /* Main.storyboard */; };
 		9C216B0D24B42BF9008C68A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C216B0C24B42BF9008C68A5 /* Assets.xcassets */; };
 		9C216B1024B42BF9008C68A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C216B0E24B42BF9008C68A5 /* LaunchScreen.storyboard */; };
+		9C216B1A24B42CED008C68A5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B1924B42CED008C68A5 /* CircleView.swift */; };
+		9C216B1C24B43933008C68A5 /* FrontCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B1B24B43933008C68A5 /* FrontCameraController.swift */; };
+		9C216B1E24B43F49008C68A5 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B1D24B43F49008C68A5 /* CustomView.swift */; };
+		9C216B2024B48B51008C68A5 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C216B1F24B48B50008C68A5 /* CircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C0D18EA24B57FD100ED487F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		9C216B0024B42BF3008C68A5 /* Asliri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asliri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C216B0324B42BF3008C68A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C216B0524B42BF3008C68A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C216B0724B42BF3008C68A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C216B0724B42BF3008C68A5 /* OpenCameraPrivyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCameraPrivyViewController.swift; sourceTree = "<group>"; };
 		9C216B0A24B42BF3008C68A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C216B0C24B42BF9008C68A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C216B0F24B42BF9008C68A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C216B1124B42BF9008C68A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C216B1924B42CED008C68A5 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		9C216B1B24B43933008C68A5 /* FrontCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontCameraController.swift; sourceTree = "<group>"; };
+		9C216B1D24B43F49008C68A5 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9C216B1F24B48B50008C68A5 /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				9C216B0324B42BF3008C68A5 /* AppDelegate.swift */,
 				9C216B0524B42BF3008C68A5 /* SceneDelegate.swift */,
-				9C216B0724B42BF3008C68A5 /* ViewController.swift */,
+				9C216B0724B42BF3008C68A5 /* OpenCameraPrivyViewController.swift */,
+				9C216B1924B42CED008C68A5 /* CircleView.swift */,
 				9C216B0924B42BF3008C68A5 /* Main.storyboard */,
+				9C0D18EA24B57FD100ED487F /* RoundedButton.swift */,
+				9C216B1F24B48B50008C68A5 /* CircularProgress.swift */,
 				9C216B0C24B42BF9008C68A5 /* Assets.xcassets */,
 				9C216B0E24B42BF9008C68A5 /* LaunchScreen.storyboard */,
 				9C216B1124B42BF9008C68A5 /* Info.plist */,
+				9C216B1B24B43933008C68A5 /* FrontCameraController.swift */,
+				9C216B1D24B43F49008C68A5 /* CustomView.swift */,
 			);
 			path = Asliri;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C216B0824B42BF3008C68A5 /* ViewController.swift in Sources */,
+				9C216B0824B42BF3008C68A5 /* OpenCameraPrivyViewController.swift in Sources */,
 				9C216B0424B42BF3008C68A5 /* AppDelegate.swift in Sources */,
+				9C216B2024B48B51008C68A5 /* CircularProgress.swift in Sources */,
+				9C0D18EB24B57FD200ED487F /* RoundedButton.swift in Sources */,
+				9C216B1A24B42CED008C68A5 /* CircleView.swift in Sources */,
+				9C216B1E24B43F49008C68A5 /* CustomView.swift in Sources */,
 				9C216B0624B42BF3008C68A5 /* SceneDelegate.swift in Sources */,
+				9C216B1C24B43933008C68A5 /* FrontCameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LB7F8G6DL6;
+				DEVELOPMENT_TEAM = 622X57WS26;
 				INFOPLIST_FILE = Asliri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,8 +324,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LB7F8G6DL6;
+				DEVELOPMENT_TEAM = 622X57WS26;
 				INFOPLIST_FILE = Asliri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
